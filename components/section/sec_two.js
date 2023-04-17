@@ -23,7 +23,8 @@ export default function SecTwo({ users }) {
             </p>
             <Link href="#">
               <span>MORE ABOUT US</span>
-              <img src="/img/common/arrow-right-b.png" alt="" />
+              <img className={styles.w} src="/img/common/arrow-right.png" alt="" />
+              <img className={styles.b} src="/img/common/arrow-right-b.png" alt="" />
             </Link>
           </div>
           <div className={styles.stwo_slider}>
@@ -37,6 +38,28 @@ export default function SecTwo({ users }) {
               navigation={{
                 prevEl: ".prev",
                 nextEl: ".next",
+              }}
+              breakpoints={{
+                300: {
+                  slidesPerView: 1,
+                  spaceBetween: 24,
+                },
+                400: {
+                  slidesPerView: 1,
+                  spaceBetween: 24,
+                },
+                980: {
+                  slidesPerView: 2,
+                  spaceBetween: 24,
+                },
+                1370: {
+                  slidesPerView: 3,
+                  spaceBetween: 24,
+                },
+                1700: {
+                  slidesPerView: 3,
+                  spaceBetween: 24,
+                },
               }}
               modules={[Navigation]}
               className="mySwiperOne"

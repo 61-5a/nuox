@@ -165,9 +165,9 @@ a {
   box-sizing: content-box;
   color: transparent;
   height: 9px;
-  padding: 45.5px 0;
+  padding: 11.37px 0;
   position: relative;
-  width: 100px;
+  width: 25px;
 }
 #hamburger,
 #hamburger::before,
@@ -182,7 +182,7 @@ a {
   height: 9px;
   left: 0;
   position: absolute;
-  width: 100px;
+  width: 25px;
 }
 #hamburger::before {
   top: 0;
@@ -196,7 +196,7 @@ a {
 }
 #hamburger.open::before,
 #hamburger.open::after {
-  width: 120px;
+  width: 30px;
 }
 #hamburger.open::before {
   transform: rotate(45deg);
@@ -209,4 +209,33 @@ a {
   transform-origin: left bottom;
   bottom: 4.5px;
   left: 9px;
+}
+
+@media only screen and (max-width: 1370px) {
+  .prev {
+    left: -26px;
+    z-index: 2;
+  }
+  .next {
+    right: -26px;
+    z-index: 2;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .prev {
+    left: 10px;
+    z-index: 2;
+    background-size: 40px;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+  }
+  .next {
+    right: 10px;
+    z-index: 2;
+    background-size: 40px;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+  }
 }

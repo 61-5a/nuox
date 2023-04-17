@@ -39,7 +39,8 @@ export default function SecOne({ products }) {
                   {/* <Link href={"/contact"}>Contact Us</Link> */}
                   <button onClick={() => router.push("/contact")}>
                     <span>Contact Us</span>
-                    <img src="/img/common/arrow-right.png" alt="" />
+                    <img className={styles.w} src="/img/common/arrow-right.png" alt="" />
+                    <img className={styles.b} src="/img/common/arrow-right-b.png" alt="" />
                   </button>
                 </div>
               </div>
@@ -71,7 +72,8 @@ export default function SecOne({ products }) {
                         {/* <Link href={"/contact"}>Contact Us</Link> */}
                         <button onClick={() => router.push("/contact")}>
                           <span>Contact Us</span>
-                          <img src="/img/common/arrow-right.png" alt="" />
+                          <img className={styles.w} src="/img/common/arrow-right.png" alt="" />
+                          <img className={styles.b} src="/img/common/arrow-right-b.png" alt="" />
                         </button>
                       </div>
                     </div>

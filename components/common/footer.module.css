@@ -87,3 +87,27 @@
 .footer_bottom a:not(:last-child) {
   margin-right: 32px;
 }
+
+@media only screen and (max-width: 1160px) {
+  .footer_inner .one {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+  .footer_inner .two {
+    width: 47%;
+  }
+  .footer_inner .three {
+    width: 47%;
+    margin-right: 0px;
+  }
+  .footer_inner .four {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .footer_bottom {
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 768px) {
+}
