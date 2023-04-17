@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import Head from "next/head";
 import PageTop from "@/components/section/pagetop";
 import ContactForm from "@/components/section/contact_form";
 import Footer from "@/components/common/footer";
+import FormSucessPopup from "@/components/section/form_sucess_popup";
 
 import styles from "./index.module.css";
 
 export default function ContactPage() {
+  const [formSucess, setFormSucess] = useState(false);
   return (
     <>
       <Head>
@@ -17,8 +19,9 @@ export default function ContactPage() {
       </Head>
       <main className={styles.main}>
         <PageTop />
-        <ContactForm />
+        <ContactForm setFormSucess={setFormSucess} />
         <Footer />
+        {formSucess ? <FormSucessPopup setFormSucess={setFormSucess} /> : null}
       </main>
     </>
   );
