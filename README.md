@@ -1,3 +1,9 @@
+## Convert PSD to Next.JS
+
+Convert given PSD to NextJs application without any CSS framework with all functionalities and a contact page.
+git : https://github.com/61-5a/nuox
+Live : https://nuox.vercel.app/
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

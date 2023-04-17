@@ -83,6 +83,9 @@ export default function SecOne({ products }) {
             );
           })}
       </Swiper>
+      <div className={styles.scroll}>
+        SCROLL DOWN <hr />
+      </div>
     </div>
   );
 }

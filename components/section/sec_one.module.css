@@ -97,6 +97,25 @@
 .slide_top button span {
   margin-right: 34px;
 }
+.scroll {
+  transform: rotate(270deg);
+  transform-origin: right top 0;
+  width: auto;
+  display: inline-block;
+  z-index: 8;
+  position: absolute;
+  bottom: 165px;
+  right: 42px;
+  color: #000;
+  opacity: 0.5;
+}
+.scroll hr {
+  border: 1px solid #f1f1f1;
+  width: 174px;
+  position: absolute;
+  left: -202px;
+  top: 7px;
+}
 
 @media only screen and (max-width: 768px) {
   .slide_out {
