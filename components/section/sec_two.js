@@ -62,7 +62,7 @@ export default function SecTwo({ users }) {
                 // .reverse()
                 ?.map((item, index) => {
                   return (
-                    <SwiperSlide>
+                    <SwiperSlide key={index}>
                       <div className={styles.stwo_slid_out}>
                         <img
                           src={item?.image ? item?.image : "/img/common/ni.svg"}
