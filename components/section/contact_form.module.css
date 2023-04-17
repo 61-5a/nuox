@@ -100,3 +100,57 @@
 .submit button span {
   margin-right: 23px;
 }
+
+@media only screen and (max-width: 1280px) {
+  .sec_contact_form_inner {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .one .left {
+    margin-right: 20px;
+  }
+  .one .right {
+    margin-left: 20px;
+  }
+  .two .left {
+    margin-right: 20px;
+  }
+  .two .right {
+    margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .sec_contact_form_inner {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .one {
+    flex-direction: column;
+  }
+  .two {
+    flex-direction: column;
+  }
+  .one .left {
+    margin-right: 0px;
+    text-align: center;
+  }
+  .one .right {
+    margin-left: 0px;
+    text-align: center;
+  }
+  .two .left {
+    margin-right: 0px;
+    text-align: center;
+    align-items: center;
+  }
+  .two .left input {
+    margin-bottom: 42px;
+  }
+  .two .right {
+    margin-left: 0px;
+    text-align: center;
+  }
+  .submit {
+    justify-content: center;
+  }
+}
