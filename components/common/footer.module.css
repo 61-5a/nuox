@@ -1,0 +1,89 @@
+.footer_outer {
+  background-color: black;
+  color: #b9b9b9;
+  background-image: url("/img/common/footer-background-image.png");
+  /* background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7) 0 100%),
+    url("/img/common/footer-background-image.png"); */
+  background-repeat: no-repeat;
+}
+.footer_inner {
+  padding: 6.8% 0 5%;
+  display: inline-block;
+  width: 100%;
+}
+
+.footer_inner .one {
+  width: 27%;
+  text-align: center;
+  float: left;
+  padding-top: 14px;
+  margin-right: 20px;
+}
+.footer_inner .two {
+  font-family: "proxima_novalight";
+  font-size: 18px;
+  line-height: 36px;
+  display: inline-block;
+  width: 19.8%;
+  margin-right: 20px;
+  float: left;
+}
+.footer_inner .two h3 {
+  font-family: "proxima_novasemibold";
+  font-size: 14px;
+  line-height: 25px;
+  color: #fff;
+  margin-bottom: 43px;
+}
+.footer_inner .two a {
+  display: inline-block;
+  width: 100%;
+}
+.footer_inner .three {
+  font-family: "proxima_novalight";
+  font-size: 18px;
+  line-height: 36px;
+  display: inline-block;
+  width: 19.3%;
+  margin-right: 20px;
+  float: left;
+}
+.footer_inner .three h3 {
+  font-family: "proxima_novasemibold";
+  font-size: 14px;
+  line-height: 25px;
+  color: #fff;
+  margin-bottom: 43px;
+}
+.footer_inner .three a {
+  display: inline-block;
+  width: 100%;
+}
+.footer_inner .four {
+  font-family: "proxima_novalight";
+  font-size: 18px;
+  line-height: 36px;
+  display: inline-block;
+  float: left;
+}
+.footer_inner .four p {
+  margin-top: 67px;
+  font-size: 17.5px;
+}
+.footer_inner .four p a {
+  display: inline-block;
+}
+.footer_inner .four p a:not(:last-child) {
+  margin-right: 23px;
+}
+
+.footer_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 27px 96px 0px;
+  padding-bottom: 43px;
+}
+.footer_bottom a:not(:last-child) {
+  margin-right: 32px;
+}

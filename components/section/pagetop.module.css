@@ -1,0 +1,36 @@
+.sec_one {
+  position: relative;
+}
+.sec_one_inner {
+  position: relative;
+}
+.slide_image {
+  position: relative;
+}
+.slide_image img {
+  max-height: 379px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+.slide_image_top {
+  background-image: url("/img/common/bg-one.png");
+  width: 100%;
+  height: 379px;
+  position: absolute;
+  top: 0;
+  opacity: 0.13;
+}
+.title {
+  position: absolute;
+  top: 200px;
+  font-family: "blacker_sans_display_trialBd";
+  text-align: left;
+  font-size: 72px;
+  line-height: 72px;
+  letter-spacing: -2px;
+  color: #fff;
+  max-width: 455px;
+  margin-bottom: 17px;
+  margin-left: 92px;
+}
